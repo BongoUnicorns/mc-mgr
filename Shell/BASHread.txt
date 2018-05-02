@@ -1,0 +1,5 @@
+Bash script creates or reattaches a shell named by the unique token specified by a user session.  The shell then runs a command from a PHP POST inside of the shell.
+
+In the future the shell will return the output of the command to the PHP script to update the DOM with the Bash shell output.
+
+If the token expires or the user logs out, the PHP script sends a sDestroy command to the script which terminates the shell with that user token.

@@ -1,0 +1,5 @@
+Keep responsive!
+
+index.html:
+Add button to redirect to loginpage.php
+Add javascript menu "How to use the application"

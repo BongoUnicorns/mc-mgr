@@ -1,0 +1,203 @@
+@charset "utf-8";
+
+@font-face{
+	font-family: "District Pro Thin";
+	src: url('DistProTh.otf');
+}
+
+@media only screen and (min-width:600px) {
+	h1{
+	margin-top:12px;
+	text-align:center;
+	margin-right:60px;
+	text-transform: uppercase;
+}
+
+	.mainText {
+	font-size: 18px;
+}
+
+	.BodyTitle{
+	display:none;
+}
+
+	.BodyTextBox{
+	opacity:0.80;
+}
+
+	body{
+
+	background-image:url("../Images/NoBlur.jpg");
+}
+
+	.mainTextHeader{
+	font-size: 28px;
+	text-align:center;
+	padding-top:12px;
+	padding-bottom:15px;
+}
+
+.loginArea {
+	float: center;
+	text-align:center;
+}
+
+}
+
+@media only screen and (max-width:600px) and (min-width:400px) {
+	.ResizingTitle{
+	font-size: 20px;
+	text-align: right;
+	margin-right:0px;
+	margin-top:13px;
+}
+	h1{
+	text-align: right;
+	margin-top:13px;
+
+	margin-right:20px;
+}
+
+	.BodyTitle{
+	display:none;
+}
+
+	.BodyTextBox{
+	opacity:0.40;
+}
+
+	body{
+
+	background-image:url("../Images/Blur.jpg");
+}
+
+	.mainTextHeader {
+	font-size:22px;
+	padding-bottom:10px;
+}
+
+	.BodyTextBox{
+
+	opacity:0.70;
+}
+
+}
+
+@media only screen and (max-width:400px) {
+
+	h1{
+		display:none;
+
+	}
+
+	.ResizingTitle{
+	display:none;}
+
+	.mainText {
+	font-size:14px;
+
+}
+
+	.mainTextHeader {
+	font-size:20px;
+
+	padding-bottom:5px;
+}
+
+	.BodyTextBox{
+	padding-top:0px;
+	opacity:0.60;
+}
+
+	body{
+
+	background-image:url("../Images/Blur.jpg");
+}
+
+}
+
+
+h1{
+	background-color: #FFFFFF;
+	margin-left: 0px;
+	font-family: "District Pro Thin";
+	font-size: 25px;
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+}
+
+p1 {
+	font-size: 20px;
+	margin-left:30px;
+	color:gainsboro;
+}
+
+p2 {
+	font-size: 16px;
+	margin-left:30px;
+}
+
+h2{
+	margin-left: 30px;
+	margin-bottom:10px;
+	margin-top:0px;
+	font-family: "District Pro Thin";
+	font-size: 25px;
+	line-height:1.6em;
+}
+
+titleimg {
+	margin-left: 5px;
+	margin-right:5px;
+	margin-top:5px;
+	margin-bottom:4px;
+	font-family: "District Pro Thin";
+	font-size: 25px;
+}
+
+body,td,th {
+	font-family: "District Pro Thin";
+	padding:0;
+	margin:0;
+	background-size:cover;
+	background-color: #000000
+}
+
+a {
+  color: black;
+  text-decoration: none; /* no underline */
+}
+
+.headerlink {
+}
+
+.mailto {
+  color: blue;
+  text-decoration: none; /* no underline */
+}
+
+.Flag {
+	position:fixed;
+	width: 100%;
+	box-shadow: 0px 2px 4px #888888;
+	margin-top:0px;
+	background-color: white;
+	float: center;
+	opacity:0.86;
+	z-index:200;
+}
+
+.BodyTextBox{
+	background-color:#FFFFFF;
+	box-shadow:0px 2px 2px #FFFFFF;
+	padding-top: 70px;
+	padding-left: 15px;
+	padding-right:10px;
+	padding-bottom: 10px;
+
+}
+
+.BodyTitle {
+	padding-bottom: 10px;
+	font-size:24px;
+}

@@ -1,0 +1,82 @@
+head {
+  font-family: "District Pro Thin";
+  src: url(DistProTh.otf) format("opentype");
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  font-family:District Pro Thin;
+  background-image: url("BKG.jpg");
+}
+
+
+h1 {
+  padding-top: 55px;
+  padding-left: 10px;
+
+
+}
+h2 {
+  padding-left: 10px;
+
+}
+p {
+
+
+
+}
+img {
+  height:40;
+  width:40;
+  margin-left: 0px;
+  padding-top: 7px;
+  padding-left: 3px;
+  padding-bottom: 3px;
+}
+input {
+
+
+
+}
+a {
+  font-style: italic;
+  text-decoration: none;
+  color: #444444;
+
+}
+.headimage{
+
+
+
+}
+
+
+.headerarea{
+  display: flex;
+  position:fixed;
+	width: 100%;
+	box-shadow: 0px 2px 4px #888888;
+	background-color: white;
+  opacity: 0.97;
+}
+.hbar {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 13px;
+  opacity: 20%;
+}
+.embedimage {
+  height:200px;
+  width:400px;
+
+}
+
+.bodyContent {
+  padding: 0px 20px 0px 10px;
+  display: flex;
+  justify-content: space-between;
+
+
+}
