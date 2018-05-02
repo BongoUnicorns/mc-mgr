@@ -156,21 +156,33 @@ else{
 		$prevtxt = fgets($file);
 		$TKstatus = substr($prevtxt,0,1);
 		if($TKstatus=='1'){
-			echo 'Tekkit server is running.<br><br>';
+			echo 'Tekkit server is: RUNNING.<form action="serverhandler.php" method="post" class="loginArea">
+				<input type="submit" name="serverName" value="Tekkit">
+			</form><br><br>';
 		} else{
-			echo 'Tekkit server is not running.<br><br>';
+			echo 'Tekkit server is: not running.<form action="serverhandler.php" method="post" class="loginArea">
+				<input type="submit" name="serverName" value="Tekkit">
+			</form><br><br>';
 		}
 		$MWstatus = substr($prevtxt,1,1);
 		if($MWstatus=='1'){
-			echo 'Magic World server is running.<br><br>';
+			echo 'Magic World server is: RUNNING.<form action="serverhandler.php" method="post" class="loginArea">
+				<input type="submit" name="serverName" value="Magic World">
+			</form><br><br>';
 		}else{
-			echo 'Magic World server is not running.<br><br>';
+			echo 'Magic World server is: not running.<form action="serverhandler.php" method="post" class="loginArea">
+				<input type="submit" name="serverName" value="Magic World">
+			</form><br><br>';
 		}
 		$VNstatus = substr($prevtxt,2,1);
 		if($VNstatus=='1'){
-			echo 'Vanilla server is running.<br><br>';
+			echo 'Vanilla server is: RUNNING.<form action="serverhandler.php" method="post" class="loginArea">
+				<input type="submit" name="serverName" value="Vanilla">
+			</form><br><br>';
 		}else{
-			echo 'Vanilla server is not running.<br><br>';
+			echo 'Vanilla server is: not running.<form action="serverhandler.php" method="post" class="loginArea">
+				<input type="submit" name="serverName" value="Vanilla">
+			</form><br><br>';
 		}
 
 }
